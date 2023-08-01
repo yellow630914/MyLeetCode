@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 public class isPalindrome {
     @Test
     public void testIsPalindrome(){
-        String s = "0P";
+        String s = "OPPO";
         System.out.println(isPalindrome(s));
     }
 
