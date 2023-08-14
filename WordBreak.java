@@ -17,8 +17,10 @@ public class WordBreak {
     private boolean wordBreak(String s, List<String> wordDict){
         boolean[][] dp = new boolean[wordDict.size()][s.length()];
         for (int i = 0; i < wordDict.size(); i++) {
+            StringBuffer curStr = new StringBuffer("");
             for (int j = 0; j < s.length(); j++) {
-
+                curStr.append(s.charAt(j));
+                // 未完
             }
         }
         return false;
